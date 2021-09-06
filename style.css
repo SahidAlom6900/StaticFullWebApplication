@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-attachment: fixed; */
+}
+nav {
+  border-bottom: 2px solid rgb(207, 203, 203);
+  background: transparent !important;
+}
+nav a i {
+  color: rgb(0, 132, 255);
+  font-size: 25px;
+}
+nav a span {
+  color: rgb(0, 132, 255);
+}
+.fas {
+  color: black;
+  font-size: 20px;
+  margin-right: 15px;
+}
+.fa-desktop {
+  color: rgb(0, 132, 255);
+  border-bottom: 2px solid rgb(0, 132, 255);
+}
+.fas:hover {
+  color: rgb(0, 132, 255);
+  border-bottom: 2px solid rgb(0, 132, 255);
+}
+form .btn {
+  /* border: 1px solid rgb(180, 170, 170); */
+  margin-right: 5px;
+  display: inline-flex;
+  align-items: center;
+}
+form .btn:hover {
+  border: 2px solid rgb(10, 143, 196);
+}
+.im {
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.4;
+}
+.stik {
+  position: fixed;
+}
+.aside {
+  position: relative;
+  top: -650px;
+  margin-left: 20px;
+  z-index: 1;
+}
+.aside .fas {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 25px;
+  border: 2px solid rgb(3, 49, 119);
+  color: rgb(21, 117, 228);
+  width: 50px;
+  padding: 10px;
+  border-radius: 25px;
+}
+.stik i span {
+  display: none;
+}
+.stik i:hover span {
+  display: block;
+}
+.stik i {
+  transition: all 0.5s linear;
+}
+.stik i:hover {
+  width: 150px;
+  background: rgb(2, 61, 85);
+  transform: scale(1);
+}
+.contain-img {
+  position: relative;
+  top: -450px;
+  left: 150px;
+}
+.contain-img i {
+  margin-top: 10px;
+  margin-right: 25px;
+  font-size: 25px;
+  transition: all 0.5s linear;
+}
+.contain-img i:hover {
+  color: rgb(21, 75, 224);
+  transform: scale(1.5);
+}
+.cont1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0 100px;
+  position: relative;
+  top: -100px;
+}
+.cont1 h1 {
+  text-decoration: underline;
+}
+.cont2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0 100px;
+  position: relative;
+}
+.cont2 h1 {
+  text-decoration: underline;
+}
+.fact div i {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  /* left: 85px; */
+  margin: auto;
+  width: 100px;
+  padding: 35px 0px;
+  font-size: 30px;
+  color: rgb(169, 194, 228);
+  border-radius: 50px;
+  background: rgb(4, 84, 204);
+}
+.b .fact .col-3 {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.fact div h3 {
+  text-align: center;
+}
+.fact div p {
+  text-align: center;
+}
+.progress {
+  margin-bottom: 15px;
+}
+.card:hover {
+  border: 1px solid rgb(131, 123, 123);
+  box-shadow: 5px 1px 20px rgb(131, 123, 123) !important;
+}
+
+.mtt div i {
+  display: inline-flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: rgb(220, 224, 220);
+  color: rgb(3, 85, 78);
+  border-radius: 25px;
+}
+.mtt div i:hover {
+  background: rgb(0, 81, 128);
+  /* color: gray; */
+}
+center {
+  background: rgb(187, 184, 184);
+}
+
+.footer {
+  font-size: 35px;
+}
+.footer i {
+  margin-left: 20px;
+  transition: all 0.5s linear;
+}
+.footer i:hover {
+  color: rgb(24, 68, 211);
+  transform: scale(1.5);
+}
+.row .col-4 {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+.contant .image1 {
+  display: flex !important;
+  /* flex-direction: column !important; */
+  flex-wrap: wrap !important;
+}
+.whatsapp_sticky .fa-whatsapp {
+  background: none;
+  font-size: 50px;
+  margin-left: 5px;
+  color: #0b648a;
+  animation: myAni 1.5s infinite;
+}
+.whatsapp {
+  position: fixed;
+  top: 580px;
+}
+.whatsapp_sticky .fa-whatsapp:hover {
+  background: none;
+}
+@keyframes myAni {
+  0% {
+    position: relative;
+    left: 0px;
+  }
+  50% {
+    position: relative;
+    left: 80px;
+  }
+  100% {
+    position: relative;
+    left: 0px;
+  }
+}
+.da {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+
+  position: relative;
+  top: -110px;
+}
+.das {
+  display: flex;
+  padding: 18px 5px 18px 20px;
+  border-radius: 35px;
+  background: rgb(212, 208, 208);
+  position: fixed;
+}
+.das:hover {
+  background: rgb(3, 71, 126);
+  color: antiquewhite;
+}
+.carousel1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel1_inner {
+  display: block;
+  margin: 0 200px;
+  width: 200px !important;
+  height: 200px;
+  border-radius: 100px;
+  background-size: cover;
+}
+.cap {
+  background: white;
+  color: black;
+}
